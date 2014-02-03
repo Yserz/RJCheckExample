@@ -13,11 +13,11 @@ import javax.persistence.criteria.Root;
  *
  * @author Michael Koppen <michael.koppen@googlemail.com>
  */
-public abstract class AbstractRepository<T> {
+public abstract class AbstractRepositoryFail<T> {
 
 	private Class<T> entityClass;
 
-	public AbstractRepository(Class<T> entityClass) {
+	public AbstractRepositoryFail(Class<T> entityClass) {
 		this.entityClass = entityClass;
 	}
 

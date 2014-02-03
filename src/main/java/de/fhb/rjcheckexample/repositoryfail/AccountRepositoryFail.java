@@ -35,14 +35,14 @@ import javax.persistence.PersistenceContext;
  * @author Michael Koppen <michael.koppen@googlemail.com>
  */
 @Stateless
-public class AccountRepository extends AbstractRepository<Account> {
+public class AccountRepositoryFail extends AbstractRepositoryFail<Account> {
 
 	@PersistenceContext(unitName = "RJCheckExamplePU")
 	private EntityManager em;
 	@EJB
 	private AccountManagerLocal accManager;
 
-	public AccountRepository() {
+	public AccountRepositoryFail() {
 		super(Account.class);
 	}
 

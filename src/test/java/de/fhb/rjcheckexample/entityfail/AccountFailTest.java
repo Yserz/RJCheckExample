@@ -1,4 +1,4 @@
-package de.fhb.rjcheckexample.entity;
+package de.fhb.rjcheckexample.entityfail;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -7,25 +7,31 @@ import org.junit.Before;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
-public class BaseEntityTest {
+public class AccountFailTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+
 	}
 
 	@Before
 	public void setUp() throws Exception {
+
 	}
 
 	@After
 	public void tearDown() throws Exception {
+
 	}
 
 	@AfterClass
 	public void tearDownAfterClass() throws Exception {
+
 	}
 
-//	@Test
+	@Test
 	public void testSample() throws Exception {
+
 	}
+
 }

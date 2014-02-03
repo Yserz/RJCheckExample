@@ -11,27 +11,21 @@ public class AccountRepositoryTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-
 	}
 
 	@Before
 	public void setUp() throws Exception {
-
 	}
 
 	@After
 	public void tearDown() throws Exception {
-
 	}
 
 	@AfterClass
 	public void tearDownAfterClass() throws Exception {
-
 	}
 
-	@Test
+//	@Test
 	public void testSample() throws Exception {
-
 	}
-
 }
