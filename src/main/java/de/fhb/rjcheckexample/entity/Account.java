@@ -27,6 +27,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**
+ * This entity represents an account.
  *
  * @author Michael Koppen <michael.koppen@googlemail.com>
  */

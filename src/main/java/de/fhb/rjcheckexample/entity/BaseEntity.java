@@ -26,9 +26,8 @@ import javax.persistence.TemporalType;
 /**
  * This is a MappedSuperclass for all Enitities in this system. Every Entity who
  * inherits from this class will have the ability to save the date of creation
- * and the date of the last modfication of its own. This works over an
- * {@link EntityListener}. In Addition the Serializable interface is implemented
- * here.
+ * and the date of the last modfication of its own. In Addition the Serializable
+ * interface is implemented here.
  *
  * @author Michael Koppen <michael.koppen@googlemail.com>
  */
